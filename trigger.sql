@@ -8,7 +8,7 @@
 
 Delimiter $$
 CREATE TRIGGER update_patient_test_count
-AFTER INSERT ON Test
+ALTER INSERT ON Test
 FOR EACH ROW
 BEGIN
   UPDATE Patient
